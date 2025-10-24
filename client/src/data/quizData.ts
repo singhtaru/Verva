@@ -11,8 +11,8 @@ export const quizData: QuizData = {
       title: "The Biology of Menopause",
       description: "Understand the hormonal changes and biological processes during menopause",
       icon: menopauseIcon,
-      questionCount: 8,
-      estimatedMinutes: 5,
+      questionCount: 12,
+      estimatedMinutes: 8,
       questions: [
         {
           id: 1,
@@ -113,6 +113,61 @@ export const quizData: QuizData = {
             title: "Common vs. Uncommon Symptoms",
             text: "Increased height is not a symptom of menopause. In fact, women may actually lose some height due to bone density loss and spinal compression. Vaginal dryness, hair thinning (not necessarily loss), and joint pain are all common symptoms related to declining estrogen levels affecting various body tissues."
           }
+        },
+        {
+          id: 9,
+          questionText: "Perimenopause is the term for:",
+          options: [
+            "The first year after menopause",
+            "The transition period leading up to menopause",
+            "Menopause occurring before age 40",
+            "Surgical removal of the ovaries"
+          ],
+          correctAnswer: 1,
+          explanation: {
+            title: "Understanding Perimenopause",
+            text: "Perimenopause is the transitional phase before menopause when hormone levels begin to fluctuate and decline. This period can last 4-10 years and is characterized by irregular periods and varying menopausal symptoms. During perimenopause, you can still get pregnant, even though fertility is declining."
+          }
+        },
+        {
+          id: 10,
+          questionText: "Weight gain during menopause is often related to:",
+          options: [
+            "Eating more food than before",
+            "Changes in metabolism and fat distribution due to hormonal shifts",
+            "Less physical activity only",
+            "Water retention from salt"
+          ],
+          correctAnswer: 1,
+          explanation: {
+            title: "Metabolism and Hormones",
+            text: "Declining estrogen levels affect how the body stores fat, shifting it from hips and thighs to the abdomen. Additionally, metabolism naturally slows with age, and muscle mass decreases, both of which reduce calorie burning. While lifestyle factors matter, the hormonal changes during menopause create a biological tendency toward weight gain and body composition changes."
+          }
+        },
+        {
+          id: 11,
+          questionText: "True or False: After menopause, women no longer need to use contraception.",
+          options: ["True", "False"],
+          correctAnswer: 1,
+          explanation: {
+            title: "Contraception After Menopause",
+            text: "False - but with nuance. Women are considered menopausal after 12 consecutive months without a period. However, during perimenopause (the years leading up to menopause), ovulation can still occur irregularly, meaning pregnancy is still possible. Contraception should be continued until menopause is confirmed, typically one year after the last period for women over 50."
+          }
+        },
+        {
+          id: 12,
+          questionText: "Cardiovascular disease risk increases after menopause because:",
+          options: [
+            "Women exercise less after menopause",
+            "Estrogen previously provided protective effects on heart health",
+            "Menopause causes high blood pressure directly",
+            "Age is the only factor"
+          ],
+          correctAnswer: 1,
+          explanation: {
+            title: "Estrogen and Heart Health",
+            text: "Before menopause, estrogen helps keep blood vessels flexible and improves the balance of good (HDL) and bad (LDL) cholesterol. When estrogen levels drop, women lose this protective effect, leading to increased risk of heart disease, high blood pressure, and high cholesterol. This is why heart disease becomes the leading cause of death in women after menopause."
+          }
         }
       ]
     },
@@ -121,8 +176,8 @@ export const quizData: QuizData = {
       title: "Understanding Endometriosis",
       description: "Learn about this common yet often misunderstood gynecological condition",
       icon: endometriosisIcon,
-      questionCount: 7,
-      estimatedMinutes: 5,
+      questionCount: 11,
+      estimatedMinutes: 8,
       questions: [
         {
           id: 1,
@@ -213,6 +268,61 @@ export const quizData: QuizData = {
             title: "Hysterectomy Is Not a Guaranteed Cure",
             text: "Removing the uterus does not guarantee cure because endometriosis involves tissue growing outside the uterus. Unless all endometrial implants throughout the pelvic cavity are removed (which is often difficult), symptoms can persist. Additionally, if the ovaries are left in place, they continue producing estrogen, which can stimulate remaining endometrial tissue."
           }
+        },
+        {
+          id: 8,
+          questionText: "Endometriosis is classified into stages based on:",
+          options: [
+            "How much pain the patient experiences",
+            "The extent, location, and depth of endometrial implants",
+            "How long the patient has had symptoms",
+            "The patient's age"
+          ],
+          correctAnswer: 1,
+          explanation: {
+            title: "Staging Endometriosis",
+            text: "Endometriosis is staged from I (minimal) to IV (severe) based on the location, extent, and depth of endometrial implants, presence of adhesions (scar tissue), and involvement of ovaries. Importantly, the stage doesn't always correlate with pain levels - someone with Stage I can have severe pain, while someone with Stage IV may have minimal symptoms."
+          }
+        },
+        {
+          id: 9,
+          questionText: "Common locations where endometriosis can grow include all EXCEPT:",
+          options: [
+            "Ovaries and fallopian tubes",
+            "Bladder and bowel",
+            "Brain and spinal cord",
+            "Pelvic ligaments and peritoneum"
+          ],
+          correctAnswer: 2,
+          explanation: {
+            title: "Where Endometriosis Grows",
+            text: "While extremely rare cases of endometriosis in distant sites like lungs have been reported, it does not typically grow in the brain or spinal cord. The most common sites are within the pelvis: ovaries, fallopian tubes, bladder, bowel surface, pelvic ligaments, and the peritoneum (lining of the pelvic cavity). The ovaries are the most frequently affected organs."
+          }
+        },
+        {
+          id: 10,
+          questionText: "Birth control pills can help manage endometriosis by:",
+          options: [
+            "Curing the disease permanently",
+            "Suppressing ovulation and reducing estrogen levels",
+            "Removing existing endometrial implants",
+            "Increasing fertility"
+          ],
+          correctAnswer: 1,
+          explanation: {
+            title: "Hormonal Management",
+            text: "Birth control pills help manage endometriosis by suppressing ovulation and maintaining steady, lower hormone levels. This reduces the hormonal fluctuations that stimulate endometrial tissue growth and shedding, thereby decreasing inflammation and pain. However, this is symptom management, not a cure - endometriosis typically returns when hormonal treatment is stopped."
+          }
+        },
+        {
+          id: 11,
+          questionText: "True or False: Endometriosis only affects the reproductive system.",
+          options: ["True", "False"],
+          correctAnswer: 1,
+          explanation: {
+            title: "Beyond Reproductive Health",
+            text: "Endometriosis can affect multiple body systems beyond reproduction. It commonly involves the bladder (causing painful urination) and bowel (causing painful bowel movements, bloating, or alternating constipation/diarrhea). Some women also experience chronic fatigue, immune dysfunction, and increased risk of certain autoimmune conditions. It's a systemic inflammatory condition, not just a reproductive issue."
+          }
         }
       ]
     },
@@ -221,8 +331,8 @@ export const quizData: QuizData = {
       title: "Breast Health & Awareness",
       description: "Essential knowledge about breast health, screening, and cancer prevention",
       icon: breastHealthIcon,
-      questionCount: 6,
-      estimatedMinutes: 4,
+      questionCount: 10,
+      estimatedMinutes: 7,
       questions: [
         {
           id: 1,
@@ -298,6 +408,56 @@ export const quizData: QuizData = {
             title: "Modifiable Risk Factors",
             text: "Regular physical activity and maintaining a healthy weight, especially after menopause, can reduce breast cancer risk. This is because fat tissue produces estrogen, and excess estrogen exposure increases cancer risk. Other beneficial factors include limiting alcohol consumption and breastfeeding if possible. While these don't eliminate risk, they can meaningfully reduce it."
           }
+        },
+        {
+          id: 7,
+          questionText: "Breast self-exams should be performed:",
+          options: [
+            "Daily",
+            "Once a month, ideally a few days after your period ends",
+            "Only if you notice symptoms",
+            "They are no longer recommended"
+          ],
+          correctAnswer: 1,
+          explanation: {
+            title: "Breast Self-Awareness",
+            text: "While formal monthly breast self-exams are no longer mandated by all organizations, breast self-awareness is encouraged. Women should become familiar with how their breasts normally look and feel. The best time to examine breasts is a few days after your period ends when breasts are least tender and lumpy. Any changes should be reported to a healthcare provider promptly."
+          }
+        },
+        {
+          id: 8,
+          questionText: "Which of these is a known risk factor for breast cancer?",
+          options: [
+            "Early menopause (before age 45)",
+            "Late onset of menstruation (after age 15)",
+            "Never having children or having first child after age 30",
+            "Short lifetime exposure to estrogen"
+          ],
+          correctAnswer: 2,
+          explanation: {
+            title: "Reproductive Risk Factors",
+            text: "Never having children or having a first child after age 30 increases breast cancer risk. This is related to cumulative estrogen exposure - pregnancy and breastfeeding reduce lifetime exposure to estrogen. Conversely, early menstruation (before 12), late menopause (after 55), and long-term hormone use all increase risk by extending estrogen exposure."
+          }
+        },
+        {
+          id: 9,
+          questionText: "If breast cancer is detected early (Stage I), the 5-year survival rate is approximately:",
+          options: ["50%", "70%", "90%", "99%"],
+          correctAnswer: 3,
+          explanation: {
+            title: "The Importance of Early Detection",
+            text: "When breast cancer is detected at Stage I (small tumor, no lymph node involvement), the 5-year survival rate is nearly 99%. This dramatically illustrates why screening and early detection are so crucial. Survival rates decrease as cancer advances to later stages, emphasizing the life-saving potential of regular mammograms and prompt evaluation of any breast changes."
+          }
+        },
+        {
+          id: 10,
+          questionText: "True or False: Men cannot develop breast cancer.",
+          options: ["True", "False"],
+          correctAnswer: 1,
+          explanation: {
+            title: "Male Breast Cancer",
+            text: "Men can develop breast cancer, though it's rare (less than 1% of all breast cancers). Men have breast tissue and can develop breast cancer, particularly if they have BRCA mutations, family history, or conditions causing increased estrogen levels. Male breast cancer is often diagnosed at later stages because awareness is low, making education important for everyone."
+          }
         }
       ]
     },
@@ -306,8 +466,8 @@ export const quizData: QuizData = {
       title: "PCOS: Polycystic Ovary Syndrome",
       description: "Understanding this common hormonal disorder affecting reproductive-age women",
       icon: pcosIcon,
-      questionCount: 7,
-      estimatedMinutes: 5,
+      questionCount: 11,
+      estimatedMinutes: 8,
       questions: [
         {
           id: 1,
@@ -402,6 +562,61 @@ export const quizData: QuizData = {
           explanation: {
             title: "The Rotterdam Criteria",
             text: "PCOS diagnosis typically requires at least 2 of 3 criteria (Rotterdam criteria): (1) Irregular or absent periods indicating lack of ovulation, (2) Clinical or biochemical signs of excess androgens (hirsutism, acne, elevated testosterone), (3) Polycystic ovaries seen on ultrasound (12+ follicles per ovary). Other conditions must be ruled out first."
+          }
+        },
+        {
+          id: 8,
+          questionText: "Metformin is sometimes prescribed for PCOS because it:",
+          options: [
+            "Is a birth control pill",
+            "Improves insulin sensitivity and can help restore ovulation",
+            "Removes ovarian cysts",
+            "Increases estrogen levels"
+          ],
+          correctAnswer: 1,
+          explanation: {
+            title: "Metformin's Role in PCOS",
+            text: "Metformin is a diabetes medication that improves how the body uses insulin. In PCOS, it can help reduce insulin resistance, which in turn lowers insulin and androgen levels. This can lead to more regular periods, improved ovulation, and metabolic benefits. It's particularly helpful for women with PCOS who have insulin resistance or are trying to conceive."
+          }
+        },
+        {
+          id: 9,
+          questionText: "True or False: All women with PCOS are overweight.",
+          options: ["True", "False"],
+          correctAnswer: 1,
+          explanation: {
+            title: "PCOS Body Diversity",
+            text: "While many women with PCOS struggle with weight gain, approximately 20-30% of women with PCOS are of normal weight or lean. PCOS is a hormonal disorder that can affect women of all body types. However, excess weight can worsen PCOS symptoms and insulin resistance, which is why weight management is often recommended when applicable."
+          }
+        },
+        {
+          id: 10,
+          questionText: "The 'polycystic' in PCOS refers to:",
+          options: [
+            "Dangerous cysts that need to be removed",
+            "Multiple small follicles visible on the ovaries via ultrasound",
+            "Cysts throughout the entire body",
+            "Cancerous growths"
+          ],
+          correctAnswer: 1,
+          explanation: {
+            title: "Understanding 'Polycystic'",
+            text: "The term is actually misleading - these aren't true cysts requiring removal. They're multiple small follicles (fluid-filled sacs containing immature eggs) that appear on ultrasound. In PCOS, hormonal imbalances prevent these follicles from maturing and releasing eggs, so they accumulate on the ovaries, creating a characteristic 'string of pearls' appearance on imaging."
+          }
+        },
+        {
+          id: 11,
+          questionText: "Women with PCOS should have regular screening for:",
+          options: [
+            "Lung function only",
+            "Blood sugar levels and cholesterol",
+            "Bone density only",
+            "Kidney function only"
+          ],
+          correctAnswer: 1,
+          explanation: {
+            title: "Monitoring Metabolic Health",
+            text: "Due to increased risks of diabetes and cardiovascular disease, women with PCOS should have regular screening for blood sugar levels (glucose tolerance tests), cholesterol, blood pressure, and cardiovascular risk factors. Early detection and management of these conditions can prevent serious complications. Screening frequency depends on individual risk factors."
           }
         }
       ]
