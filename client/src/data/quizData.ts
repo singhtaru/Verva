@@ -21,7 +21,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Fact: It's Biological!",
-            text: "Hot flashes are a direct biological response. They are caused by the body's 'thermostat' (the hypothalamus in the brain) becoming more sensitive to slight changes in body temperature. This happens because of declining estrogen levels, which help regulate the hypothalamus. The brain mistakenly thinks the body is overheating and triggers a 'flash' to cool it down."
+            text: "Hot flashes are a direct biological response, not in your head! They are caused by the body's 'thermostat' - the hypothalamus (a small region at the base of the brain that regulates body temperature) - becoming more sensitive to slight changes in body temperature. This happens because of declining estrogen (a female hormone) levels, which normally help regulate the hypothalamus. When estrogen drops during menopause, the brain mistakenly thinks the body is overheating and triggers a 'flash' to cool it down, causing sudden sweating and warmth."
           }
         },
         {
@@ -36,7 +36,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "The Science: Estrogen & Bone Density",
-            text: "While all options can contribute, the primary driver is estrogen. Estrogen plays a crucial role in regulating bone turnover (the process of breaking down old bone and building new bone). Specifically, it restrains the cells that break down bone (osteoclasts). When estrogen levels drop during menopause, these cells become more active, leading to faster bone loss."
+            text: "While all options can contribute, the primary driver is estrogen. Osteoporosis (a condition where bones become weak and brittle) risk increases dramatically after menopause. Estrogen plays a crucial role in regulating bone turnover - the continuous process of breaking down old bone and building new bone. Specifically, estrogen restrains cells called osteoclasts (bone-breaking cells). When estrogen levels drop during menopause, osteoclasts become more active, leading to faster bone loss than bone formation."
           }
         },
         {
@@ -46,7 +46,7 @@ export const quizData: QuizData = {
           correctAnswer: 2,
           explanation: {
             title: "The Timing of Menopause",
-            text: "The average age of menopause is 51 years old, typically occurring between 50-55 years. However, perimenopause (the transition period) can begin several years earlier. Menopause is officially diagnosed after 12 consecutive months without a menstrual period."
+            text: "The average age of menopause is 51 years old, typically occurring between 50-55 years. However, perimenopause (the transition period with hormone fluctuations before periods stop completely) can begin several years earlier. Menopause is officially diagnosed after 12 consecutive months without a menstrual period, meaning the ovaries have stopped releasing eggs and producing most estrogen."
           }
         },
         {
@@ -56,7 +56,7 @@ export const quizData: QuizData = {
           correctAnswer: 2,
           explanation: {
             title: "Estrogen: The Key Player",
-            text: "Estrogen decline is the primary driver of most menopausal symptoms. This hormone regulates many body systems including temperature control, bone density, skin elasticity, and mood regulation. When ovaries produce less estrogen during menopause, these systems are affected, leading to the characteristic symptoms."
+            text: "Estrogen (the primary female sex hormone) decline is the main driver of most menopausal symptoms. This hormone regulates many body systems including temperature control, bone density, skin elasticity, vaginal tissue health, and mood regulation through brain chemistry. When the ovaries produce less estrogen during menopause, these systems are affected, leading to the characteristic symptoms like hot flashes, bone loss, and mood changes."
           }
         },
         {
@@ -66,7 +66,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Understanding HRT Risks and Benefits",
-            text: "HRT is not universally dangerous. Modern research shows that for many women, especially those under 60 or within 10 years of menopause onset, the benefits often outweigh the risks. The key is individualized treatment based on personal health history, symptom severity, and risk factors. HRT can effectively manage symptoms and protect bone health when appropriately prescribed."
+            text: "HRT (Hormone Replacement Therapy - treatment that supplements the hormones your body no longer produces) is not universally dangerous. Modern research shows that for many women, especially those under 60 or within 10 years of menopause onset, the benefits often outweigh the risks. HRT can include estrogen alone or combined with progesterone (another hormone). The key is individualized treatment based on personal health history, symptom severity, and risk factors. HRT can effectively manage symptoms and protect bone health when appropriately prescribed."
           }
         },
         {
@@ -81,7 +81,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "The Sleep-Disruption Connection",
-            text: "While multiple factors can affect sleep, night sweats (nocturnal hot flashes) are a primary biological cause of sleep disruption during menopause. These sudden temperature spikes can wake women multiple times per night, preventing deep, restorative sleep. The estrogen decline also affects temperature regulation during sleep cycles."
+            text: "While multiple factors can affect sleep, night sweats (nocturnal hot flashes - episodes of sudden heat and sweating during sleep) are a primary biological cause of sleep disruption during menopause. These sudden temperature spikes can wake women multiple times per night, preventing deep, restorative sleep. The estrogen decline also affects the hypothalamus, which regulates temperature during sleep cycles, making the body more sensitive to temperature changes at night."
           }
         },
         {
@@ -96,7 +96,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Hormones and Brain Chemistry",
-            text: "Estrogen influences the production and function of neurotransmitters like serotonin and dopamine, which regulate mood. During the menopausal transition, erratic hormone fluctuations can lead to mood swings, irritability, and increased risk of depression. This is a biological phenomenon, not just a psychological response to aging."
+            text: "Estrogen influences the production and function of neurotransmitters (chemical messengers in the brain) like serotonin and dopamine, which regulate mood, motivation, and pleasure. During the menopausal transition, erratic hormone fluctuations - not steady levels but up-and-down changes - can lead to mood swings, irritability, and increased risk of depression. This is a biological phenomenon driven by brain chemistry changes, not just a psychological response to aging."
           }
         },
         {
@@ -111,7 +111,7 @@ export const quizData: QuizData = {
           correctAnswer: 2,
           explanation: {
             title: "Common vs. Uncommon Symptoms",
-            text: "Increased height is not a symptom of menopause. In fact, women may actually lose some height due to bone density loss and spinal compression. Vaginal dryness, hair thinning (not necessarily loss), and joint pain are all common symptoms related to declining estrogen levels affecting various body tissues."
+            text: "Increased height is not a symptom of menopause. In fact, women may actually lose some height due to bone density loss and spinal compression (the vertebrae in the spine compressing closer together). Vaginal dryness (reduced moisture and lubrication), hair thinning on the scalp, and joint pain (aching or stiffness in knees, hips, fingers) are all common symptoms related to declining estrogen levels affecting various body tissues and collagen production."
           }
         },
         {
@@ -126,7 +126,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Understanding Perimenopause",
-            text: "Perimenopause is the transitional phase before menopause when hormone levels begin to fluctuate and decline. This period can last 4-10 years and is characterized by irregular periods and varying menopausal symptoms. During perimenopause, you can still get pregnant, even though fertility is declining."
+            text: "Perimenopause (peri- means 'around' or 'near') is the transitional phase before menopause when hormone levels begin to fluctuate and decline, but periods haven't completely stopped. This period can last 4-10 years and is characterized by irregular periods (sometimes closer together, sometimes farther apart) and varying menopausal symptoms. During perimenopause, you can still get pregnant since ovulation (egg release) can still occur irregularly, even though fertility is declining."
           }
         },
         {
@@ -141,7 +141,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Metabolism and Hormones",
-            text: "Declining estrogen levels affect how the body stores fat, shifting it from hips and thighs to the abdomen. Additionally, metabolism naturally slows with age, and muscle mass decreases, both of which reduce calorie burning. While lifestyle factors matter, the hormonal changes during menopause create a biological tendency toward weight gain and body composition changes."
+            text: "Declining estrogen levels affect how the body stores fat, shifting it from hips and thighs to the abdomen (creating an 'apple shape' instead of 'pear shape'). Additionally, metabolism (the rate at which your body burns calories) naturally slows with age, and muscle mass (which burns more calories than fat) decreases. Both of these reduce overall calorie burning. While lifestyle factors like diet and exercise matter, the hormonal changes during menopause create a biological tendency toward weight gain and body composition changes."
           }
         },
         {
@@ -151,7 +151,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Contraception After Menopause",
-            text: "False - but with nuance. Women are considered menopausal after 12 consecutive months without a period. However, during perimenopause (the years leading up to menopause), ovulation can still occur irregularly, meaning pregnancy is still possible. Contraception should be continued until menopause is confirmed, typically one year after the last period for women over 50."
+            text: "False - but with nuance. Women are considered menopausal after 12 consecutive months without a period. However, during perimenopause (the transition years before this point), ovulation can still occur irregularly, meaning pregnancy is still possible even with irregular periods. Contraception (birth control) should be continued until menopause is confirmed - typically one year after the last period for women over 50, or two years after the last period for women under 50."
           }
         },
         {
@@ -166,7 +166,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Estrogen and Heart Health",
-            text: "Before menopause, estrogen helps keep blood vessels flexible and improves the balance of good (HDL) and bad (LDL) cholesterol. When estrogen levels drop, women lose this protective effect, leading to increased risk of heart disease, high blood pressure, and high cholesterol. This is why heart disease becomes the leading cause of death in women after menopause."
+            text: "Before menopause, estrogen helps keep blood vessels flexible (able to expand and contract easily) and improves the balance of HDL (high-density lipoprotein - 'good' cholesterol that removes harmful cholesterol) and LDL (low-density lipoprotein - 'bad' cholesterol that can clog arteries). When estrogen levels drop, women lose this protective cardiovascular effect, leading to increased risk of heart disease, high blood pressure, and high cholesterol. This is why heart disease becomes the leading cause of death in women after menopause."
           }
         }
       ]
@@ -191,7 +191,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Defining Endometriosis",
-            text: "Endometriosis is a condition where tissue similar to the endometrium (the lining of the uterus) grows outside the uterus. This tissue can grow on the ovaries, fallopian tubes, bladder, intestines, and other areas. Like the uterine lining, this tissue responds to hormonal changes during the menstrual cycle, causing inflammation and pain."
+            text: "Endometriosis is a condition where tissue similar to the endometrium (the tissue lining the inside of the uterus that normally sheds during menstruation) grows outside the uterus where it doesn't belong. This tissue can grow on the ovaries (organs that produce eggs), fallopian tubes (tubes that carry eggs to the uterus), outer surface of the bladder, intestines, and other areas in the pelvis. Like the normal uterine lining, this misplaced tissue responds to monthly hormonal changes during the menstrual cycle, thickening and breaking down, causing inflammation and pain."
           }
         },
         {
@@ -206,7 +206,7 @@ export const quizData: QuizData = {
           correctAnswer: 0,
           explanation: {
             title: "The Pain Mechanism",
-            text: "During menstruation, endometrial tissue normally exits through the vagina. However, endometrial-like tissue growing outside the uterus has no way to leave the body. It bleeds and breaks down in place, causing inflammation, irritation, and scarring of surrounding tissues. This trapped blood and resulting inflammation is what causes the characteristic pain."
+            text: "During menstruation (your period), endometrial tissue normally exits the uterus through the vagina. However, endometrial-like tissue growing outside the uterus has no way to leave the body. Each month, this tissue bleeds and breaks down in place - trapped inside your pelvic cavity. This causes inflammation (swelling and irritation), internal bleeding, and eventual scarring (adhesions - bands of scar tissue that can make organs stick together) of surrounding tissues. This trapped blood and resulting inflammation is what causes the characteristic pelvic pain, especially during periods."
           }
         },
         {
@@ -216,7 +216,7 @@ export const quizData: QuizData = {
           correctAnswer: 0,
           explanation: {
             title: "Endometriosis and Fertility",
-            text: "Endometriosis is found in 30-50% of women experiencing infertility. It can affect fertility through multiple mechanisms: causing inflammation that damages eggs or sperm, creating scarring that blocks fallopian tubes, or distorting pelvic anatomy. However, many women with endometriosis can still conceive, especially with treatment."
+            text: "True. Endometriosis is found in 30-50% of women experiencing infertility (difficulty getting pregnant). It can affect fertility through multiple mechanisms: causing chronic inflammation that damages eggs or sperm, creating scarring (adhesions) that physically blocks fallopian tubes (the tubes that carry eggs from ovaries to uterus), or distorting pelvic anatomy so eggs can't reach the tubes. However, many women with endometriosis can still conceive naturally, and treatment options including surgery and assisted reproductive technology can help."
           }
         },
         {
@@ -231,7 +231,7 @@ export const quizData: QuizData = {
           correctAnswer: 2,
           explanation: {
             title: "The Diagnosis Delay",
-            text: "On average, it takes 7-10 years from when symptoms first appear to receive an endometriosis diagnosis. This delay occurs because symptoms are often dismissed as 'normal period pain,' the condition requires surgical diagnosis, and awareness among both patients and healthcare providers has historically been low."
+            text: "On average, it takes 7-10 years from when symptoms first appear to receive an endometriosis diagnosis. This shocking delay occurs for several reasons: symptoms like severe period pain are often dismissed as 'normal,' many doctors lack awareness about the condition, the only definitive diagnosis requires surgery, and women's pain is historically undertreated in medicine. This delay means many women suffer for years before getting appropriate care."
           }
         },
         {
@@ -241,7 +241,7 @@ export const quizData: QuizData = {
           correctAnswer: 3,
           explanation: {
             title: "The Role of Estrogen",
-            text: "Estrogen is the primary hormone that promotes the growth of endometrial tissue, both inside and outside the uterus. This is why endometriosis symptoms often improve during pregnancy (when progesterone is high and ovulation stops) and after menopause (when estrogen levels drop). Many treatments work by reducing estrogen levels."
+            text: "Estrogen (the primary female sex hormone) is the main hormone that promotes the growth and activity of endometrial tissue, both inside and outside the uterus. This is why endometriosis symptoms often improve during pregnancy (when progesterone is high and ovulation/periods stop) and after menopause (when estrogen production dramatically decreases). Many endometriosis treatments work by reducing estrogen levels or blocking estrogen's effects on the misplaced tissue."
           }
         },
         {
@@ -256,7 +256,7 @@ export const quizData: QuizData = {
           correctAnswer: 2,
           explanation: {
             title: "Surgical Diagnosis",
-            text: "Laparoscopic surgery with tissue biopsy is currently the only definitive way to diagnose endometriosis. During this minimally invasive procedure, a camera is inserted through a small incision to visualize the pelvic organs and identify endometrial implants. While imaging can suggest endometriosis, visual confirmation and tissue analysis are required for definitive diagnosis."
+            text: "Laparoscopic surgery (a minimally invasive surgical procedure where a thin camera is inserted through a small incision in the abdomen) with tissue biopsy (taking a small sample to examine under a microscope) is currently the only definitive way to diagnose endometriosis. During this procedure, doctors can directly visualize the pelvic organs and identify endometrial implants (patches of endometrial-like tissue). While imaging like ultrasound or MRI can suggest endometriosis, visual confirmation and tissue analysis are required for a definitive diagnosis."
           }
         },
         {
@@ -266,7 +266,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Hysterectomy Is Not a Guaranteed Cure",
-            text: "Removing the uterus does not guarantee cure because endometriosis involves tissue growing outside the uterus. Unless all endometrial implants throughout the pelvic cavity are removed (which is often difficult), symptoms can persist. Additionally, if the ovaries are left in place, they continue producing estrogen, which can stimulate remaining endometrial tissue."
+            text: "False. A hysterectomy (surgical removal of the uterus/womb) does not guarantee cure because endometriosis by definition involves tissue growing outside the uterus. Unless all endometrial implants throughout the pelvic cavity are found and removed during surgery (which is often technically difficult), symptoms can persist even without a uterus. Additionally, if the ovaries are left in place, they continue producing estrogen, which can stimulate any remaining endometrial tissue to grow and cause symptoms."
           }
         },
         {
@@ -281,7 +281,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Staging Endometriosis",
-            text: "Endometriosis is staged from I (minimal) to IV (severe) based on the location, extent, and depth of endometrial implants, presence of adhesions (scar tissue), and involvement of ovaries. Importantly, the stage doesn't always correlate with pain levels - someone with Stage I can have severe pain, while someone with Stage IV may have minimal symptoms."
+            text: "Endometriosis is staged from I (minimal) to IV (severe) based on surgical findings: the location, extent, and depth of endometrial implants (patches of tissue), presence and severity of adhesions (scar tissue bands connecting organs), and involvement of ovaries (including endometriomas - cysts filled with old blood, called 'chocolate cysts'). Importantly, the stage doesn't always correlate with pain levels - someone with Stage I can have debilitating pain, while someone with Stage IV may have minimal symptoms."
           }
         },
         {
@@ -296,7 +296,7 @@ export const quizData: QuizData = {
           correctAnswer: 2,
           explanation: {
             title: "Where Endometriosis Grows",
-            text: "While extremely rare cases of endometriosis in distant sites like lungs have been reported, it does not typically grow in the brain or spinal cord. The most common sites are within the pelvis: ovaries, fallopian tubes, bladder, bowel surface, pelvic ligaments, and the peritoneum (lining of the pelvic cavity). The ovaries are the most frequently affected organs."
+            text: "While extremely rare cases of endometriosis in distant sites like lungs have been reported in medical literature, it does not typically grow in the brain or spinal cord. The most common sites are within the pelvic cavity: ovaries, fallopian tubes, outer surfaces of the bladder and bowel, pelvic ligaments (tissues supporting pelvic organs), and the peritoneum (the membrane lining the pelvic cavity). The ovaries are the most frequently affected organs, often developing endometriomas (blood-filled cysts)."
           }
         },
         {
@@ -311,7 +311,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Hormonal Management",
-            text: "Birth control pills help manage endometriosis by suppressing ovulation and maintaining steady, lower hormone levels. This reduces the hormonal fluctuations that stimulate endometrial tissue growth and shedding, thereby decreasing inflammation and pain. However, this is symptom management, not a cure - endometriosis typically returns when hormonal treatment is stopped."
+            text: "Birth control pills (oral contraceptives containing synthetic versions of estrogen and/or progesterone) help manage endometriosis by suppressing ovulation (preventing the monthly release of an egg) and maintaining steady, lower hormone levels. This reduces the hormonal fluctuations that stimulate endometrial tissue to grow, thicken, and shed each month, thereby decreasing inflammation and pain. However, this is symptom management, not a cure - endometriosis tissue remains and typically becomes active again when hormonal treatment is stopped."
           }
         },
         {
@@ -321,7 +321,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Beyond Reproductive Health",
-            text: "Endometriosis can affect multiple body systems beyond reproduction. It commonly involves the bladder (causing painful urination) and bowel (causing painful bowel movements, bloating, or alternating constipation/diarrhea). Some women also experience chronic fatigue, immune dysfunction, and increased risk of certain autoimmune conditions. It's a systemic inflammatory condition, not just a reproductive issue."
+            text: "False. Endometriosis can affect multiple body systems beyond reproduction. It commonly involves the bladder (causing dysuria - painful urination, or urgency), bowel (causing painful bowel movements, bloating, constipation, or diarrhea, especially during periods), and can cause chronic fatigue (persistent tiredness). Some women also experience immune system dysfunction and increased risk of certain autoimmune conditions (diseases where the immune system attacks the body). It's increasingly understood as a systemic inflammatory condition (affecting the whole body), not just a localized reproductive issue."
           }
         }
       ]
@@ -341,7 +341,7 @@ export const quizData: QuizData = {
           correctAnswer: 2,
           explanation: {
             title: "Screening Guidelines",
-            text: "Most major medical organizations recommend starting annual mammogram screening at age 50 for average-risk women, though some suggest beginning at 40. Women with higher risk factors (family history, genetic mutations) should discuss earlier screening with their healthcare provider. The key is to balance early detection benefits with potential harms from false positives."
+            text: "Most major medical organizations recommend starting annual mammogram screening (an X-ray examination of the breast to detect tumors too small to feel) at age 50 for average-risk women, though some organizations suggest beginning at 40. A mammogram compresses the breast between plates to take detailed images that can reveal suspicious areas. Women with higher risk factors (family history of breast cancer, genetic mutations like BRCA) should discuss earlier and more frequent screening with their healthcare provider. The key is balancing early detection benefits with potential harms from false positives (abnormal results that turn out not to be cancer)."
           }
         },
         {
@@ -351,7 +351,7 @@ export const quizData: QuizData = {
           correctAnswer: 3,
           explanation: {
             title: "The Family History Myth",
-            text: "Approximately 85% of breast cancers occur in women with no family history of the disease. While having a first-degree relative with breast cancer does increase risk, the majority of cases occur in women without this risk factor. This is why screening is important for all women, not just those with family history."
+            text: "Approximately 85% of breast cancers occur in women with no family history of the disease. While having a first-degree relative (mother, sister, daughter) with breast cancer does increase individual risk, the vast majority of breast cancer cases occur in women without this risk factor. This is why regular screening is important for all women, not just those with family history. Most breast cancer is related to age and gender, not inherited genetics."
           }
         },
         {
@@ -366,7 +366,7 @@ export const quizData: QuizData = {
           correctAnswer: 0,
           explanation: {
             title: "Understanding Breast Density",
-            text: "Dense breast tissue contains more glandular and fibrous tissue relative to fatty tissue. This matters for two reasons: (1) Dense tissue appears white on mammograms, and so do tumors, making detection more difficult. (2) Women with dense breasts have a moderately increased risk of breast cancer. Additional screening methods like ultrasound or MRI may be recommended."
+            text: "Dense breast tissue (breasts with more glandular and fibrous connective tissue relative to fatty tissue) matters for two important reasons: (1) On a mammogram (breast X-ray), dense tissue appears white, and tumors also appear white, making it like 'finding a snowball in a snowstorm' - detection becomes more difficult. (2) Women with dense breasts have a moderately increased risk of developing breast cancer. Many states now require mammogram reports to inform women about their breast density. Additional screening methods like ultrasound (sound waves to create images) or MRI (magnetic resonance imaging) may be recommended for women with very dense breasts."
           }
         },
         {
@@ -376,7 +376,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Most Lumps Are Benign",
-            text: "Approximately 80% of breast lumps are benign (non-cancerous). Common benign causes include cysts, fibroadenomas, and normal hormonal changes. However, any new lump should be evaluated by a healthcare provider, as clinical examination and often imaging are needed to determine if a lump requires biopsy."
+            text: "False. Approximately 80% of breast lumps are benign (non-cancerous). Common benign causes include cysts (fluid-filled sacs), fibroadenomas (solid, smooth, rubbery lumps made of fibrous and glandular tissue, most common in young women), and normal fibrocystic changes (lumpiness related to hormonal fluctuations). However, any new lump or breast change should be promptly evaluated by a healthcare provider, as clinical examination (physical exam by a doctor) and often imaging (mammogram or ultrasound) are needed to determine if a lump requires biopsy (removing a tissue sample to examine under a microscope)."
           }
         },
         {
@@ -391,7 +391,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Understanding BRCA Mutations",
-            text: "BRCA1 and BRCA2 are tumor suppressor genes that normally help repair DNA damage. Mutations in these genes significantly increase the risk of breast cancer (up to 70% lifetime risk) and ovarian cancer. However, having a mutation doesn't guarantee cancer development. Women with BRCA mutations have options including enhanced screening, preventive medications, or risk-reducing surgery."
+            text: "BRCA1 and BRCA2 (BReast CAncer gene 1 and 2) are tumor suppressor genes that normally help repair damaged DNA in cells. Mutations (harmful changes) in these genes significantly increase the risk of breast cancer (up to 70% lifetime risk vs. 12% average risk) and ovarian cancer (up to 44% vs. 1-2% average risk). However, having a BRCA mutation doesn't guarantee cancer development - it means much higher risk, not certainty. Women with BRCA mutations have options including enhanced screening (more frequent mammograms, MRIs starting younger), preventive medications (like tamoxifen), or risk-reducing surgery (removing breasts and/or ovaries before cancer develops)."
           }
         },
         {
@@ -406,7 +406,7 @@ export const quizData: QuizData = {
           correctAnswer: 0,
           explanation: {
             title: "Modifiable Risk Factors",
-            text: "Regular physical activity and maintaining a healthy weight, especially after menopause, can reduce breast cancer risk. This is because fat tissue produces estrogen, and excess estrogen exposure increases cancer risk. Other beneficial factors include limiting alcohol consumption and breastfeeding if possible. While these don't eliminate risk, they can meaningfully reduce it."
+            text: "Regular physical activity (at least 150 minutes moderate exercise per week) and maintaining a healthy weight, especially after menopause, can reduce breast cancer risk by 10-20%. This works because fat tissue (adipose tissue) produces estrogen, and excess estrogen exposure over a lifetime increases cancer risk. Obesity after menopause is a significant modifiable risk factor. Other beneficial lifestyle factors include limiting alcohol consumption (even moderate drinking increases risk), breastfeeding if possible (reduces lifetime estrogen exposure), and avoiding unnecessary hormone therapy. While these factors don't eliminate risk, they meaningfully reduce it."
           }
         },
         {
@@ -421,7 +421,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Breast Self-Awareness",
-            text: "While formal monthly breast self-exams are no longer mandated by all organizations, breast self-awareness is encouraged. Women should become familiar with how their breasts normally look and feel. The best time to examine breasts is a few days after your period ends when breasts are least tender and lumpy. Any changes should be reported to a healthcare provider promptly."
+            text: "While formal structured monthly breast self-exams (BSE) are no longer mandated by all medical organizations, breast self-awareness (being familiar with your normal breast appearance and feel) is strongly encouraged. Women should know what's normal for their own breasts. The best time to examine breasts is a few days after your period ends, when breasts are least tender, swollen, and lumpy from hormonal changes. Look for lumps, dimpling, nipple changes, or skin changes. Any new or persistent changes should be reported to a healthcare provider promptly - don't wait for your annual exam."
           }
         },
         {
@@ -436,7 +436,7 @@ export const quizData: QuizData = {
           correctAnswer: 2,
           explanation: {
             title: "Reproductive Risk Factors",
-            text: "Never having children or having a first child after age 30 increases breast cancer risk. This is related to cumulative estrogen exposure - pregnancy and breastfeeding reduce lifetime exposure to estrogen. Conversely, early menstruation (before 12), late menopause (after 55), and long-term hormone use all increase risk by extending estrogen exposure."
+            text: "Never having children (nulliparity) or having a first child after age 30 increases breast cancer risk. This is related to cumulative estrogen exposure over a lifetime - pregnancy and breastfeeding give the breasts a 'break' from monthly estrogen exposure and mature breast cells, making them less susceptible to cancer. Conversely, early menstruation (before age 12), late menopause (after age 55), and long-term hormone replacement therapy all increase risk by extending lifetime estrogen exposure. Each year of delayed first pregnancy after age 20 slightly increases risk."
           }
         },
         {
@@ -446,7 +446,7 @@ export const quizData: QuizData = {
           correctAnswer: 3,
           explanation: {
             title: "The Importance of Early Detection",
-            text: "When breast cancer is detected at Stage I (small tumor, no lymph node involvement), the 5-year survival rate is nearly 99%. This dramatically illustrates why screening and early detection are so crucial. Survival rates decrease as cancer advances to later stages, emphasizing the life-saving potential of regular mammograms and prompt evaluation of any breast changes."
+            text: "When breast cancer is detected at Stage I (small tumor less than 2cm, no lymph node involvement, cancer hasn't spread beyond the breast), the 5-year survival rate (the percentage of people alive 5 years after diagnosis) is nearly 99%. This dramatically illustrates why screening mammograms and prompt evaluation of any breast changes are so crucial. Survival rates decrease progressively as cancer advances to later stages: Stage II (80-90%), Stage III (70-75%), Stage IV or metastatic (22%). Early detection truly saves lives."
           }
         },
         {
@@ -456,7 +456,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Male Breast Cancer",
-            text: "Men can develop breast cancer, though it's rare (less than 1% of all breast cancers). Men have breast tissue and can develop breast cancer, particularly if they have BRCA mutations, family history, or conditions causing increased estrogen levels. Male breast cancer is often diagnosed at later stages because awareness is low, making education important for everyone."
+            text: "False. Men can and do develop breast cancer, though it's rare (less than 1% of all breast cancers, about 2,600 cases annually in the U.S.). Men have breast tissue (though less than women) and can develop breast cancer, particularly if they have BRCA2 mutations (rarer BRCA1), family history, conditions causing increased estrogen levels (like liver disease or obesity), or radiation exposure to the chest. Male breast cancer is often diagnosed at later stages because awareness is low and men don't expect it. Any breast lump, skin changes, or nipple discharge in men should be evaluated promptly."
           }
         }
       ]
@@ -481,7 +481,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Defining PCOS",
-            text: "Despite its name, PCOS is not primarily about cysts. It's a complex hormonal disorder characterized by irregular periods, excess androgens (male hormones), and metabolic issues. The 'cysts' are actually many small follicles (immature eggs) that don't develop properly due to hormonal imbalances. PCOS affects approximately 10% of reproductive-age women."
+            text: "Despite its name, PCOS (Polycystic Ovary Syndrome) is not primarily about cysts. It's a complex hormonal and metabolic disorder characterized by irregular or absent periods, excess androgens (male hormones like testosterone), and often metabolic issues like insulin resistance (when cells don't respond well to insulin). The 'cysts' visible on ultrasound are actually many small follicles (fluid-filled sacs containing immature eggs) that don't develop and release properly due to hormonal imbalances. PCOS affects approximately 10% (1 in 10) of reproductive-age women, making it one of the most common hormonal disorders."
           }
         },
         {
@@ -491,7 +491,7 @@ export const quizData: QuizData = {
           correctAnswer: 3,
           explanation: {
             title: "Androgen Excess in PCOS",
-            text: "Women with PCOS typically have elevated levels of androgens, particularly testosterone. This hormonal imbalance leads to symptoms like excess facial/body hair (hirsutism), acne, and scalp hair thinning. The androgen excess also interferes with normal ovulation, contributing to irregular periods and fertility challenges."
+            text: "Women with PCOS typically have elevated levels of androgens (male hormones), particularly testosterone. While all women produce small amounts of testosterone, PCOS causes overproduction. This hormonal imbalance leads to characteristic symptoms like hirsutism (excess facial and body hair in male-pattern areas like chin, upper lip, chest, and abdomen), acne (particularly along jawline and neck), and male-pattern scalp hair thinning or loss at the crown. The androgen excess also interferes with normal follicle development and ovulation (egg release), contributing to irregular periods and fertility challenges."
           }
         },
         {
@@ -501,7 +501,7 @@ export const quizData: QuizData = {
           correctAnswer: 0,
           explanation: {
             title: "The Insulin Connection",
-            text: "Insulin resistance is present in 70-80% of women with PCOS. When cells don't respond properly to insulin, the pancreas produces more insulin to compensate. High insulin levels stimulate the ovaries to produce more androgens, worsening PCOS symptoms. This is why lifestyle changes improving insulin sensitivity (diet, exercise, weight loss) can significantly help manage PCOS."
+            text: "True. Insulin resistance (when the body's cells don't respond properly to insulin, a hormone that helps sugar enter cells for energy) is present in 70-80% of women with PCOS, including many lean women. When cells are insulin-resistant, the pancreas compensates by producing more and more insulin (hyperinsulinemia - high insulin levels in blood). High insulin levels directly stimulate the ovaries to produce excess androgens (male hormones), worsening PCOS symptoms and creating a vicious cycle. This is why lifestyle changes improving insulin sensitivity (diet focused on low glycemic foods, regular exercise, weight loss if overweight) can significantly help manage PCOS and restore normal cycles."
           }
         },
         {
@@ -516,7 +516,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Long-term Health Risks",
-            text: "Due to insulin resistance, women with PCOS have a significantly increased risk of developing type 2 diabetes. They also face higher risks of cardiovascular disease, high blood pressure, high cholesterol, metabolic syndrome, and endometrial cancer. Regular screening and preventive care are important for managing these risks."
+            text: "Due to insulin resistance, women with PCOS have a significantly increased risk of developing type 2 diabetes (a condition where blood sugar levels are too high) - up to 50% will develop prediabetes or diabetes by age 40. They also face higher risks of cardiovascular disease (heart attacks and strokes), high blood pressure (hypertension), high cholesterol and triglycerides (dyslipidemia), metabolic syndrome (a cluster of conditions increasing heart disease risk), non-alcoholic fatty liver disease, and endometrial cancer (cancer of the uterine lining, due to unopposed estrogen from not ovulating regularly). Regular screening for these conditions and preventive care are crucial."
           }
         },
         {
@@ -531,7 +531,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "PCOS and Ovulation",
-            text: "The hormonal imbalances in PCOS prevent the normal development and release of eggs (ovulation). Without regular ovulation, pregnancy becomes difficult to achieve naturally. However, PCOS-related infertility is often treatable with medications that stimulate ovulation, lifestyle modifications, or assisted reproductive technologies."
+            text: "The hormonal imbalances in PCOS prevent the normal monthly development and release of mature eggs, a process called ovulation. Without regular ovulation - called anovulation (no ovulation) or oligo-ovulation (infrequent ovulation) - pregnancy becomes difficult to achieve naturally because there's no egg available for sperm to fertilize most months. However, PCOS-related infertility is often very treatable with medications that stimulate ovulation (like clomiphene or letrozole), lifestyle modifications that improve insulin sensitivity, or assisted reproductive technologies like IVF. Many women with PCOS successfully conceive with treatment."
           }
         },
         {
@@ -546,7 +546,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Lifestyle as Medicine",
-            text: "For most women with PCOS, especially those who are overweight, lifestyle modifications are the first-line treatment. Even modest weight loss (5-10% of body weight) can improve insulin sensitivity, reduce androgen levels, restore ovulation, and improve menstrual regularity. Combined with medications when needed, this approach addresses PCOS at its metabolic root."
+            text: "For most women with PCOS, especially those who are overweight or obese, lifestyle modifications are the first-line (initial, most recommended) treatment. Even modest weight loss of 5-10% of body weight can improve insulin sensitivity (how well cells respond to insulin), reduce insulin and androgen levels, restore more regular ovulation and periods, improve fertility, and reduce long-term health risks. Effective lifestyle changes include a lower glycemic index diet (foods that don't spike blood sugar rapidly), regular exercise (both cardio and strength training), adequate sleep, and stress management. These approaches address PCOS at its metabolic root cause and are often combined with medications when needed."
           }
         },
         {
@@ -561,7 +561,7 @@ export const quizData: QuizData = {
           correctAnswer: 0,
           explanation: {
             title: "The Rotterdam Criteria",
-            text: "PCOS diagnosis typically requires at least 2 of 3 criteria (Rotterdam criteria): (1) Irregular or absent periods indicating lack of ovulation, (2) Clinical or biochemical signs of excess androgens (hirsutism, acne, elevated testosterone), (3) Polycystic ovaries seen on ultrasound (12+ follicles per ovary). Other conditions must be ruled out first."
+            text: "PCOS diagnosis typically requires meeting at least 2 of 3 criteria, known as the Rotterdam criteria: (1) Irregular or absent periods (oligomenorrhea or amenorrhea) indicating lack of regular ovulation, (2) Clinical signs (visible symptoms like excess hair growth or acne) OR biochemical signs (blood test showing elevated androgens like testosterone) of excess androgens (hyperandrogenism), (3) Polycystic ovaries seen on pelvic ultrasound (12 or more small follicles per ovary, and/or enlarged ovary volume). Importantly, other conditions that can cause similar symptoms (like thyroid disorders, high prolactin, or adrenal problems) must be ruled out first through blood tests before confirming PCOS."
           }
         },
         {
@@ -576,7 +576,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Metformin's Role in PCOS",
-            text: "Metformin is a diabetes medication that improves how the body uses insulin. In PCOS, it can help reduce insulin resistance, which in turn lowers insulin and androgen levels. This can lead to more regular periods, improved ovulation, and metabolic benefits. It's particularly helpful for women with PCOS who have insulin resistance or are trying to conceive."
+            text: "Metformin is a diabetes medication (usually used for type 2 diabetes) that improves how the body's cells respond to insulin - called improving insulin sensitivity. In PCOS, reducing insulin resistance with metformin can help lower elevated insulin levels, which in turn reduces androgen (male hormone) production by the ovaries. This can lead to more regular menstrual periods, improved ovulation rates, reduced testosterone levels, and metabolic benefits like better blood sugar control and modest weight loss. It's particularly helpful for women with PCOS who have documented insulin resistance, prediabetes, or are trying to conceive. However, it works best when combined with lifestyle changes."
           }
         },
         {
@@ -586,7 +586,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "PCOS Body Diversity",
-            text: "While many women with PCOS struggle with weight gain, approximately 20-30% of women with PCOS are of normal weight or lean. PCOS is a hormonal disorder that can affect women of all body types. However, excess weight can worsen PCOS symptoms and insulin resistance, which is why weight management is often recommended when applicable."
+            text: "False. While 60-70% of women with PCOS struggle with weight gain and obesity (partly due to insulin resistance making weight loss difficult), approximately 20-30% of women with PCOS are of normal weight or lean. PCOS is fundamentally a hormonal and metabolic disorder that can affect women across all body types and weights. Lean women with PCOS can still have insulin resistance, elevated androgens, irregular cycles, and fertility challenges. However, excess weight does worsen PCOS symptoms and insulin resistance, which is why weight management is strongly recommended when applicable - but it's not the cause of PCOS, and thin women can definitely have PCOS."
           }
         },
         {
@@ -601,7 +601,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Understanding 'Polycystic'",
-            text: "The term is actually misleading - these aren't true cysts requiring removal. They're multiple small follicles (fluid-filled sacs containing immature eggs) that appear on ultrasound. In PCOS, hormonal imbalances prevent these follicles from maturing and releasing eggs, so they accumulate on the ovaries, creating a characteristic 'string of pearls' appearance on imaging."
+            text: "The term 'polycystic' is actually misleading and confusing - these aren't true cysts requiring removal or treatment. They're multiple small follicles (fluid-filled sacs, each containing an immature egg) - typically 12 or more in each ovary - that appear like a 'string of pearls' on ultrasound imaging. In PCOS, hormonal imbalances prevent these follicles from fully maturing and releasing eggs (ovulation). Instead, they accumulate on the ovaries' outer edge, creating the characteristic polycystic appearance. These follicles are not harmful themselves, not cancerous, and don't need to be removed - they're simply a sign of the underlying hormonal problem preventing normal ovulation."
           }
         },
         {
@@ -616,7 +616,7 @@ export const quizData: QuizData = {
           correctAnswer: 1,
           explanation: {
             title: "Monitoring Metabolic Health",
-            text: "Due to increased risks of diabetes and cardiovascular disease, women with PCOS should have regular screening for blood sugar levels (glucose tolerance tests), cholesterol, blood pressure, and cardiovascular risk factors. Early detection and management of these conditions can prevent serious complications. Screening frequency depends on individual risk factors."
+            text: "Due to increased risks of metabolic and cardiovascular problems, women with PCOS should have regular screening for blood sugar levels through fasting glucose and oral glucose tolerance test or HbA1c (a test showing average blood sugar over 3 months) to catch prediabetes or diabetes early, lipid panel (cholesterol and triglycerides - fats in blood), blood pressure (checking for hypertension), and overall cardiovascular risk assessment. Screening frequency depends on individual risk factors: higher-risk women (obese, family history of diabetes, impaired glucose already) may need annual testing, while lower-risk women may be screened every 2-3 years. Early detection and management of these conditions through lifestyle changes and medications can prevent serious complications like heart attacks, strokes, and diabetic complications."
           }
         }
       ]

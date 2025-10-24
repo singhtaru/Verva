@@ -7,7 +7,18 @@ import AnswerOption from "@/components/AnswerOption";
 import ExplanationCard from "@/components/ExplanationCard";
 import { Button } from "@/components/ui/button";
 import { quizData } from "@/data/quizData";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, RotateCcw } from "lucide-react";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
 
 export default function Quiz() {
   const [, params] = useRoute("/quiz/:topicId");
@@ -99,6 +110,14 @@ export default function Quiz() {
     }
   };
 
+  const handleRestart = () => {
+    setCurrentQuestionIndex(0);
+    setSelectedAnswer(null);
+    setShowExplanation(false);
+    setScore(0);
+    setUserAnswers([]);
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <Header showBackButton backTo="/" title={topic.title} />
@@ -111,6 +130,32 @@ export default function Quiz() {
 
       <main className="max-w-3xl mx-auto px-4 md:px-6 py-8 md:py-12">
         <div className="space-y-6">
+          <div className="flex items-center justify-between gap-4 mb-2">
+            <div className="flex-1"></div>
+            <AlertDialog>
+              <AlertDialogTrigger asChild>
+                <Button variant="outline" size="sm" data-testid="button-restart-quiz">
+                  <RotateCcw className="h-4 w-4 mr-2" />
+                  Restart Quiz
+                </Button>
+              </AlertDialogTrigger>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>Restart Quiz?</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    This will reset your progress and start the quiz from the beginning. Your current score will be lost.
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel data-testid="button-cancel-restart">Cancel</AlertDialogCancel>
+                  <AlertDialogAction onClick={handleRestart} data-testid="button-confirm-restart">
+                    Restart
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+          </div>
+
           <QuestionCard
             questionText={currentQuestion.questionText}
             questionNumber={currentQuestionIndex + 1}
