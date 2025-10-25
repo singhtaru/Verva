@@ -1,4 +1,4 @@
-# Women's Health Quiz Website
+# Verva - Women's Health Quiz Website
 
 An educational web application focused on women's health topics, featuring interactive quizzes with scientifically-based questions and detailed explanations. Built with modern web technologies to provide an engaging learning experience.
 
