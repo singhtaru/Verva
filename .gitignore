@@ -91,3 +91,11 @@ vite.config.ts.*
 *.tar.gz
 *.zip
 *.rar
+
+
+
+# Security / Credential files
+*.pem
+*.key
+*.crt
+verva-health-2.pem
